@@ -1,3 +1,4 @@
+/*
 import day from './assets/day.svg';
 import night from './assets/night.svg';
 import cloudy from './assets/cloudy.svg';
@@ -22,7 +23,7 @@ import snowy_5 from './assets/snowy_5.svg';
 import snowy_6 from './assets/snowy_6.svg';
 import thunder from './assets/thunder.svg';
 
-import mapping from './json/mapping.json';
+import mapping from '../json/mapping.json';
 
 export default function svgs(props){
   console.log(mapping.weather.find(el => el.numéro === props.num).svg);
@@ -30,3 +31,5 @@ export default function svgs(props){
     <img src={"/src/assets/rainy_1.svg"} />
   );
 }
+
+*/
